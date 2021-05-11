@@ -1,0 +1,29 @@
+.container
+{
+    display: flex;
+}
+
+.first_container
+{
+    background-color: #364664;
+    width: 34%;
+    height: 2000px;
+}
+
+.profile_picture
+{
+    margin-left: 50px;
+    padding-top: 50px;
+}
+
+.profile_picture img
+{
+    width: 20%;
+}
+
+.second_container
+{
+    background-color: red;
+    width: 66%;
+    height: 2000px;
+}
