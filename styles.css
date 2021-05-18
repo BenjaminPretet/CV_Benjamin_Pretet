@@ -1,24 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap');
+
 .container
 {
     display: flex;
+    margin: 0 10%;
+}
+
+.first_container h1, h3, p
+{
+    color: #ffe7d4;
 }
 
 .first_container
 {
-    background-color: #364664;
+    background-color: #494e5f;
     width: 34%;
     height: 2000px;
 }
 
 .profile_picture
 {
-    margin-left: 50px;
+    margin-left: 170px;
     padding-top: 50px;
 }
 
 .profile_picture img
 {
-    width: 20%;
+    width: 48%;
 }
 
 .second_container
