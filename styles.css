@@ -12,6 +12,7 @@
     color: #ffe7d4;
 }
 
+/*left part*/
 .first_container
 {
     background-color: #494e5f;
@@ -19,17 +20,63 @@
     height: 2000px;
 }
 
+.first_container h1
+{
+    font-family: Montserrat, sans-serif;
+    font-size: 28px;
+    margin: 0;
+}
+
+.first_container h3
+{
+    font-family: Montserrat, sans-serif;
+    font-size: 22px;
+}
+
+.first_container p
+{
+    font-family: Arimo, sans-serif;
+    font-size: 16px;
+}
+
 .profile_picture
 {
-    margin-left: 170px;
+    margin-left: 140px;
     padding-top: 50px;
 }
 
 .profile_picture img
 {
-    width: 48%;
+    width: 60%;
 }
 
+.profile
+{
+    margin-top: 50px;
+    margin-left: 40px;
+    border-bottom: solid 2px;
+}
+
+.contact
+{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.skill
+{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.software
+{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+/*left part*/
+
+/*right part*/
 .second_container
 {
     background-color: red;
