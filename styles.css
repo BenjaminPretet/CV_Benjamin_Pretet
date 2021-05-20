@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap');
 
+body
+{
+    margin: 0%;
+}
 .container
 {
     display: flex;
     margin: 0 10%;
-}
-
-.first_container h1, h3, p
-{
-    color: #ffe7d4;
 }
 
 /*left part*/
@@ -17,12 +16,14 @@
 {
     background-color: #494e5f;
     width: 34%;
-    height: 2000px;
+    height: 1500px;
+    padding-left: 40px;
 }
 
 .first_container h1
 {
     font-family: Montserrat, sans-serif;
+    color: #ffe7d4;
     font-size: 28px;
     margin: 0;
 }
@@ -30,12 +31,14 @@
 .first_container h3
 {
     font-family: Montserrat, sans-serif;
+    color: #ffe7d4;
     font-size: 22px;
 }
 
 .first_container p
 {
     font-family: Arimo, sans-serif;
+    color: #ffe7d4;
     font-size: 16px;
 }
 
@@ -52,27 +55,27 @@
 
 .profile
 {
-    margin-top: 50px;
-    margin-left: 40px;
+    margin: 50px 40px 0 0px;
     border-bottom: solid 2px;
+    color: #ffe7d4;
 }
 
 .contact
 {
     margin-top: 30px;
-    margin-left: 40px;
+    
 }
 
 .skill
 {
     margin-top: 30px;
-    margin-left: 40px;
+    
 }
 
 .software
 {
     margin-top: 30px;
-    margin-left: 40px;
+    
 }
 /*left part*/
 
@@ -81,5 +84,11 @@
 {
     background-color: red;
     width: 66%;
-    height: 2000px;
+    height: 1500px;
+    padding-left: 40px;
+}
+
+.second_container h3, p
+{
+    color: black;
 }
