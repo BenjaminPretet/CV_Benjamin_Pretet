@@ -8,7 +8,8 @@ body
 .container
 {
     display: flex;
-    margin: 0 10%;
+    margin: 1% 20%;
+    border: 1px solid black;
 }
 
 /*left part*/
@@ -17,7 +18,7 @@ body
     background-color: #494e5f;
     width: 34%;
     height: 1500px;
-    padding-left: 40px;
+    padding-left: 60px;
 }
 
 .first_container h1
@@ -32,7 +33,7 @@ body
 {
     font-family: Montserrat, sans-serif;
     color: #ffe7d4;
-    font-size: 22px;
+    font-size: 21px;
 }
 
 .first_container p
@@ -40,55 +41,54 @@ body
     font-family: Arimo, sans-serif;
     color: #ffe7d4;
     font-size: 16px;
+    margin: 10px 0 10px 0;
+}
+
+.first_container a
+{
+    font-family: Arimo, sans-serif;
+    color: #ffe7d4;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 10px 0 10px 0;
 }
 
 .profile_picture
 {
-    margin-left: 140px;
+    margin-left: 48px;
     padding-top: 50px;
 }
 
 .profile_picture img
 {
-    width: 60%;
+    width: 65%;
 }
 
 .profile
 {
-    margin: 50px 40px 0 0px;
+    margin: 50px 60px 0 0;
     border-bottom: solid 2px;
     color: #ffe7d4;
 }
 
-.contact
+.contact .skill .software
 {
     margin-top: 30px;
     
 }
 
-.skill
-{
-    margin-top: 30px;
-    
-}
-
-.software
-{
-    margin-top: 30px;
-    
-}
 /*left part*/
 
 /*right part*/
 .second_container
 {
-    background-color: red;
+    background-color: #fefefa;
     width: 66%;
     height: 1500px;
     padding-left: 40px;
 }
 
-.second_container h3, p
+.second_container h3,h4,h5,p
 {
-    color: black;
+    color: #494e5f;
 }
