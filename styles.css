@@ -25,7 +25,7 @@ body
 {
     font-family: Montserrat, sans-serif;
     color: #ffe7d4;
-    font-size: 28px;
+    font-size: 25px;
     margin: 0;
 }
 
@@ -33,7 +33,7 @@ body
 {
     font-family: Montserrat, sans-serif;
     color: #ffe7d4;
-    font-size: 21px;
+    font-size: 20px;
 }
 
 .first_container p
@@ -53,9 +53,10 @@ body
     margin: 10px 0 10px 0;
 }
 
+/*profile and picture*/
 .profile_picture
 {
-    margin-left: 48px;
+    margin-left: 38px;
     padding-top: 50px;
 }
 
@@ -67,16 +68,25 @@ body
 .profile
 {
     margin: 50px 60px 0 0;
+    padding-bottom: 20px;
     border-bottom: solid 2px;
     color: #ffe7d4;
 }
+/*profile and picture*/
 
-.contact .skill .software
+/*contact and skill part*/
+.contact, .skill
 {
     margin-top: 30px;
-    
 }
+/*contact and skill part*/
 
+/*software part*/
+.software
+{
+    margin: 30px 60px 0 0;
+}
+/*software part*/
 /*left part*/
 
 /*right part*/
@@ -85,11 +95,125 @@ body
     background-color: #fefefa;
     width: 66%;
     height: 1500px;
-    padding-left: 40px;
+    padding-left: 60px;
+    margin-right: 60px;
 }
 
-.second_container h3,h4,h5,p
+.second_container h3
 {
+    font-family: Montserrat, sans-serif;
     color: #494e5f;
-
+    font-size: 21px;
 }
+
+.second_container h4
+{
+    font-family: Montserrat, sans-serif;
+    color: #494e5f;
+    font-size: 21px;
+}
+
+.second_container h5
+{
+    font-family: Arimo, sans-serif;
+    color: #494e5f;
+    font-size: 16px;
+    margin: 10px 0 10px 0
+}
+
+.second_container p
+{
+    font-family: Arimo, sans-serif;
+    color: #494e5f;
+    font-size: 16px;
+    margin: 10px 0 10px 0
+}
+
+.second_container a
+{
+    font-family: Arimo, sans-serif;
+    color: #494e5f;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 10px 0 10px 0;
+}
+
+/*about part*/
+.about
+{
+    padding-top: 40px;
+}
+
+.about h3
+{
+    margin: 20px 0 20px 0;
+}
+/*about part*/
+
+/*training part*/
+.training
+{
+    padding-top: 20px;
+}
+
+.training_title
+{
+    border: solid 1px;
+    color: #ffe7d4;
+    background-color: #ffe7d4;
+}
+
+.training_title h3
+{
+    margin-left: 15px;
+}
+
+.training h4
+{
+    margin: 25px 0 15px 0;
+}
+/*training part*/
+
+/*professional part*/
+.professional_experience
+{
+    padding-top: 20px;
+}
+
+.professional_experience_title
+{
+    border: solid 1px;
+    color: #ffe7d4;
+    background-color: #ffe7d4; 
+}
+
+.professional_experience_title h3
+{
+    margin-left: 15px;
+}
+
+.professional_experience h4
+{
+    margin: 25px 0 15px 0;
+}
+/*professional part*/
+
+/*hobbies part*/
+.hobbies
+{
+    padding-top: 20px;
+}
+
+.hobbies_title
+{
+    border: solid 1px;
+    color: #ffe7d4;
+    background-color: #ffe7d4;
+    margin-bottom: 25px;
+}
+
+.hobbies_title h3
+{
+    margin-left: 15px;
+}
+/*hobbies part*/
