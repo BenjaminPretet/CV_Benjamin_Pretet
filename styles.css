@@ -14,11 +14,12 @@ body
 }
 
 /*left part*/
+/*title and other*/
 .first_container
 {
     background-color: #494e5f;
     width: 34%;
-    height: 1500px;
+    height: 1400px;
     padding-left: 60px;
 }
 
@@ -45,6 +46,16 @@ body
     margin: 10px 0 10px 0;
 }
 
+.first_container ul,li
+{
+    font-family: Arimo, sans-serif;
+    color: #ffe7d4;
+    font-size: 16px;
+    margin: 10px 0 10px 0;
+    padding-left: 10px;
+    list-style-type: '-';
+}
+
 .first_container a
 {
     font-family: Arimo, sans-serif;
@@ -53,6 +64,7 @@ body
     text-decoration: none;
     margin: 10px 0 10px 0;
 }
+/*title and other*/
 
 /*profile and picture*/
 .profile_picture
@@ -95,7 +107,7 @@ body
 {
     background-color: #fefefa;
     width: 66%;
-    height: 1500px;
+    height: 1400px;
     padding-left: 60px;
     margin-right: 60px;
 }
