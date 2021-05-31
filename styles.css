@@ -38,14 +38,6 @@ body
     font-size: 20px;
 }
 
-.first_container p
-{
-    font-family: Arimo, sans-serif;
-    color: #ffe7d4;
-    font-size: 16px;
-    margin: 10px 0 10px 0;
-}
-
 .first_container ul,li
 {
     font-family: Arimo, sans-serif;
@@ -65,7 +57,6 @@ body
     margin: 10px 0 10px 0;
 }
 /*title and other*/
-
 /*profile and picture*/
 .profile_picture
 {
