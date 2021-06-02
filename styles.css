@@ -35,7 +35,7 @@ body
 {
     font-family: Montserrat, sans-serif;
     color: #ffe7d4;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .first_container ul,li
@@ -52,6 +52,7 @@ body
 {
     font-family: Arimo, sans-serif;
     color: #ffe7d4;
+    font-style: italic;
     font-size: 16px;
     text-decoration: none;
     margin: 10px 0 10px 0;
@@ -137,6 +138,7 @@ body
 {
     font-family: Arimo, sans-serif;
     color: #494e5f;
+    font-style: italic;
     font-size: 16px;
     text-decoration: none;
     margin: 10px 0 10px 0;
@@ -221,3 +223,229 @@ body
     margin-left: 15px;
 }
 /*hobbies part*/
+
+@media screen and (max-width: 1024px)
+{
+        body
+    {
+        margin: 0%;
+    }
+    .container
+    {
+        display: flex;
+        margin: 1% 5%;
+        border: 1px solid black;
+        box-shadow: 10px 5px 5px gray;
+    }
+
+    /*left part*/
+    /*title and other*/
+    .first_container
+    {
+        background-color: #494e5f;
+        width: 34%;
+        height: 1480px;
+        padding-left: 40px;
+    }
+
+    .first_container h1
+    {
+        font-family: Montserrat, sans-serif;
+        color: #ffe7d4;
+        font-size: 25px;
+        margin: 0;
+    }
+
+    .first_container h3
+    {
+        font-family: Montserrat, sans-serif;
+        color: #ffe7d4;
+        font-size: 22px;
+    }
+
+    .first_container ul,li
+    {
+        font-family: Arimo, sans-serif;
+        color: #ffe7d4;
+        font-size: 16px;
+        margin: 10px 0 10px 0;
+        padding-left: 10px;
+        list-style-type: '-';
+    }
+
+    .first_container a
+    {
+        font-family: Arimo, sans-serif;
+        color: #ffe7d4;
+        font-style: italic;
+        font-size: 16px;
+        text-decoration: none;
+        margin: 10px 0 10px 0;
+    }
+    /*title and other*/
+    /*profile and picture*/
+    .profile_picture
+    {
+        margin-left: 38px;
+        padding-top: 50px;
+    }
+
+    .profile_picture img
+    {
+        width: 65%;
+    }
+
+    .profile
+    {
+        margin: 50px 60px 0 0;
+        padding-bottom: 20px;
+        border-bottom: solid 2px;
+        color: #ffe7d4;
+    }
+    /*profile and picture*/
+
+    /*contact and skill part*/
+    .contact, .skill
+    {
+        margin-top: 30px;
+    }
+    /*contact and skill part*/
+
+    /*software part*/
+    .software
+    {
+        margin: 30px 60px 0 0;
+    }
+    /*software part*/
+    /*left part*/
+
+    /*right part*/
+    .second_container
+    {
+        background-color: #fefefa;
+        width: 66%;
+        height: 1480px;
+        padding-left: 60px;
+        margin-right: 60px;
+    }
+
+    .second_container h3
+    {
+        font-family: Montserrat, sans-serif;
+        color: #494e5f;
+        font-size: 21px;
+    }
+
+    .second_container h4
+    {
+        font-family: Montserrat, sans-serif;
+        color: #494e5f;
+        font-size: 21px;
+    }
+
+    .second_container h5
+    {
+        font-family: Arimo, sans-serif;
+        color: #494e5f;
+        font-size: 16px;
+        margin: 10px 0 10px 0
+    }
+
+    .second_container p
+    {
+        font-family: Arimo, sans-serif;
+        color: #494e5f;
+        font-size: 16px;
+        margin: 10px 0 10px 0
+    }
+
+    .second_container a
+    {
+        font-family: Arimo, sans-serif;
+        color: #494e5f;
+        font-style: italic;
+        font-size: 16px;
+        text-decoration: none;
+        margin: 10px 0 10px 0;
+    }
+
+    /*about part*/
+    .about
+    {
+        padding-top: 40px;
+    }
+
+    .about h3
+    {
+        margin: 20px 0 20px 0;
+    }
+    /*about part*/
+
+    /*training part*/
+    .training
+    {
+        padding-top: 20px;
+    }
+
+    .training_title
+    {
+        border: solid 1px;
+        color: #ffe7d4;
+        background-color: #ffe7d4;
+    }
+
+    .training_title h3
+    {
+        margin-left: 15px;
+    }
+
+    .training h4
+    {
+        margin: 25px 0 15px 0;
+    }
+    /*training part*/
+
+    /*professional part*/
+    .professional_experience
+    {
+        padding-top: 20px;
+    }
+
+    .professional_experience_title
+    {
+        border: solid 1px;
+        color: #ffe7d4;
+        background-color: #ffe7d4; 
+    }
+
+    .professional_experience_title h3
+    {
+        margin-left: 15px;
+    }
+
+    .professional_experience h4
+    {
+        margin: 25px 0 15px 0;
+    }
+    /*professional part*/
+
+    /*hobbies part*/
+    .hobbies
+    {
+        padding-top: 20px;
+    }
+
+    .hobbies_title
+    {
+        border: solid 1px;
+        color: #ffe7d4;
+        background-color: #ffe7d4;
+        margin-bottom: 25px;
+    }
+
+    .hobbies_title h3
+    {
+        margin-left: 15px;
+    }
+    /*hobbies part*/
+}
