@@ -23,7 +23,7 @@ body
     padding-left: 60px;
 }
 
-.first_container h1
+.first_container h2
 {
     font-family: Montserrat, sans-serif;
     color: #ffe7d4;
@@ -54,7 +54,7 @@ body
     color: #ffe7d4;
     font-style: italic;
     font-size: 16px;
-    text-decoration: none;
+    text-decoration: underline;
     margin: 10px 0 10px 0;
 }
 /*title and other*/
@@ -140,10 +140,9 @@ body
     color: #494e5f;
     font-style: italic;
     font-size: 16px;
-    text-decoration: none;
+    text-decoration: underline;
     margin: 10px 0 10px 0;
 }
-
 /*about part*/
 .about
 {
@@ -248,7 +247,7 @@ body
         padding-left: 40px;
     }
 
-    .first_container h1
+    .first_container h2
     {
         font-family: Montserrat, sans-serif;
         color: #ffe7d4;
