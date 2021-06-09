@@ -57,6 +57,11 @@ body
     text-decoration: underline;
     margin: 10px 0 10px 0;
 }
+
+.first_container a:active
+{
+    font-size: 18px;
+}
 /*title and other*/
 /*profile and picture*/
 .profile_picture
@@ -143,6 +148,12 @@ body
     text-decoration: underline;
     margin: 10px 0 10px 0;
 }
+
+.second_container a:active
+{
+    font-size: 18px;
+}
+
 /*about part*/
 .about
 {
