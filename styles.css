@@ -13,6 +13,11 @@ body
     box-shadow: 10px 5px 5px gray;
 }
 
+.first_container .second_container a:active
+{
+    font-size: 18px;
+}
+
 /*left part*/
 /*title and other*/
 .first_container
@@ -58,7 +63,7 @@ body
     margin: 10px 0 10px 0;
 }
 
-.first_container a:active
+.first_container a:hover
 {
     font-size: 18px;
 }
@@ -149,11 +154,10 @@ body
     margin: 10px 0 10px 0;
 }
 
-.second_container a:active
+.second_container a:hover
 {
     font-size: 18px;
 }
-
 /*about part*/
 .about
 {
